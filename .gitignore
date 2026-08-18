@@ -1,3 +1,6 @@
 .claude/
 Thumbs.db
 .DS_Store
+
+# Prettified reading copies of the build output — regenerate with prettier, not deployed
+readable/
