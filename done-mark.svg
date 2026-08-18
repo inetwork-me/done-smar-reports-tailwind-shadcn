@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.287" height="50.587" viewBox="0 0 50.287 50.587">
+  <!--
+    The DONE mark alone, cut from done-logo.svg — same paths, same colours,
+    tighter viewBox. Used in the top bar below `sm`, where the full lockup
+    (155.46 wide) overflows the 375px bar. Keep the two files in step: if the
+    logo is ever reissued, re-cut this from it rather than editing it here.
+  -->
+  <defs>
+    <clipPath id="mark-clip">
+      <rect width="15.16" height="35.474" transform="translate(0.54 15.112)"/>
+    </clipPath>
+    <clipPath id="mark-clip-2">
+      <path d="M15.7,15.112.54,22.766V42.933L15.7,50.586Z"/>
+    </clipPath>
+    <linearGradient id="mark-gradient" x1="-3.856" y1="10.785" x2="-3.842" y2="10.785" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#1d1d1b"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-0.54)">
+    <path d="M50.827,17.733,15.7,0V15.112L50.827,32.845Z" fill="#001c71"/>
+    <path d="M15.7,15.112.54,22.766V42.932L15.7,50.586Z" fill="#00b288"/>
+    <g opacity="0.5">
+      <g clip-path="url(#mark-clip)">
+        <g clip-path="url(#mark-clip-2)">
+          <path d="M12.668,9.048,29.89,43.491,3.572,56.65-13.649,22.207Z" fill="url(#mark-gradient)"/>
+        </g>
+      </g>
+    </g>
+    <path d="M.54,42.933l2.944-1.475L50.827,17.741V32.853L15.7,50.587Z" fill="#00b288"/>
+    <path d="M50.827,32.846V17.734L15.7,0V15.112" fill="#001c71"/>
+    <path d="M.54,42.933l2.944-1.475L50.827,17.741V32.853L15.7,50.587Z" fill="#00b288"/>
+  </g>
+</svg>
